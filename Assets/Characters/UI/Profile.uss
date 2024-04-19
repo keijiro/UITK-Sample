@@ -1,0 +1,84 @@
+Label {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.profileContainer {
+    flex-direction: row;
+    width: 640px;
+    height: 144px;
+    padding-top: 8px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    background-color: rgb(255, 248, 232);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    margin-left: 58px;
+}
+
+.portrait {
+    width: 128px;
+    height: 128px;
+}
+
+.portraitShadow {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 128px;
+    height: 128px;
+    background-color: rgba(0, 0, 0, 0.62);
+}
+
+.displayName {
+    font-size: 54px;
+    -unity-font-definition: url("project://database/Assets/Common/InriaSerif-Bold%20SDF.asset?fileID=11400000&guid=55f475540810f4098b9cc3b651ea9671&type=2#InriaSerif-Bold SDF");
+    margin-left: 36px;
+    -unity-text-align: middle-left;
+    color: rgb(53, 53, 53);
+}
+
+.fieldRow {
+    flex-direction: row;
+    border-bottom-width: 1.5px;
+    width: 160px;
+    justify-content: flex-end;
+    height: 58px;
+}
+
+.fieldLabel {
+    font-size: 20px;
+    -unity-font-definition: url("project://database/Assets/Common/InriaSerif-Italic%20SDF.asset?fileID=11400000&guid=aa7749140ea984086b90e27e7cc67636&type=2#InriaSerif-Italic SDF");
+    -unity-text-align: lower-left;
+    translate: 0 -4px;
+}
+
+.fieldValue {
+    padding-left: 8px;
+    -unity-font-definition: url("project://database/Assets/Common/InriaSerif-Italic%20SDF.asset?fileID=11400000&guid=aa7749140ea984086b90e27e7cc67636&type=2#InriaSerif-Italic SDF");
+    translate: 0 2px;
+    font-size: 48px;
+    -unity-text-align: middle-left;
+}
+
+.colorLife {
+    color: rgb(0, 86, 140);
+    border-bottom-color: rgb(0, 86, 140);
+}
+
+.colorStrength {
+    color: rgb(147, 0, 0);
+    border-bottom-color: rgb(147, 0, 0);
+}

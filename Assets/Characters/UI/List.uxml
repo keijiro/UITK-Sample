@@ -1,0 +1,6 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Characters/UI/List.uss?fileID=7433441132597879392&amp;guid=b6d9baa9a90ff4c2ba1e215a17ff517d&amp;type=3#List" />
+    <engine:VisualElement name="root" class="root">
+        <engine:ListView virtualization-method="FixedHeight" item-template="project://database/Assets/Characters/UI/Profile.uxml?fileID=9197481963319205126&amp;guid=301625f46e7ad4b10881f3d890beaa1e&amp;type=3#Profile" binding-source-selection-mode="AutoAssign" name="character-list" fixed-item-height="160" enabled="true" />
+    </engine:VisualElement>
+</engine:UXML>

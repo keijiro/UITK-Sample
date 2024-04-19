@@ -1,0 +1,35 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Characters/UI/Profile.uss?fileID=7433441132597879392&amp;guid=9152b15f8ac684511911932bde375d9d&amp;type=3#Profile" />
+    <engine:VisualElement name="profile-container" class="profileContainer">
+        <engine:VisualElement name="portrait-shadow" class="portraitShadow" />
+        <engine:VisualElement name="portrait" class="portrait">
+            <Bindings>
+                <engine:DataBinding property="style.backgroundImage" data-source-path="portrait" binding-mode="ToTarget" />
+            </Bindings>
+        </engine:VisualElement>
+        <engine:Label name="display-name" class="displayNameLabel displayName">
+            <Bindings>
+                <engine:DataBinding property="text" data-source-path="displayName" binding-mode="ToTarget" />
+            </Bindings>
+        </engine:Label>
+        <engine:VisualElement name="space" style="flex-grow: 1;" />
+        <engine:VisualElement name="fields">
+            <engine:VisualElement name="life-row" class="fieldRow colorLife">
+                <engine:Label text="Life" name="field-label" class="fieldLabel" />
+                <engine:Label name="life-value" class="fieldValue">
+                    <Bindings>
+                        <engine:DataBinding property="text" data-source-path="life" binding-mode="ToTarget" />
+                    </Bindings>
+                </engine:Label>
+            </engine:VisualElement>
+            <engine:VisualElement name="strength-row" class="fieldRow colorStrength">
+                <engine:Label text="Strength" name="field-label" class="fieldLabel" />
+                <engine:Label name="strength-value" class="fieldValue">
+                    <Bindings>
+                        <engine:DataBinding property="text" data-source-path="strength" binding-mode="ToTarget" />
+                    </Bindings>
+                </engine:Label>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
