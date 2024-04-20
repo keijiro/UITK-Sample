@@ -1,10 +1,10 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Dancer.uss?fileID=7433441132597879392&amp;guid=4c906c2de591b40a19290b3359d85dd6&amp;type=3#Dancer" />
     <engine:VisualElement name="root" style="flex-grow: 1; justify-content: center; margin-top: 10%; margin-right: 10%; margin-bottom: 10%; margin-left: 10%;">
-        <engine:VisualElement name="column" style="width: 20%;">
-            <engine:Button text="Dance" name="button-dance" />
-            <engine:Button text="Spin" name="button-spin" />
-            <engine:Button text="Flip" name="button-flip" />
+        <engine:VisualElement name="column" style="width: 300px;">
+            <engine:Button text="Dance" name="button-dance" class="actionButton" />
+            <engine:Button text="Spin" name="button-spin" class="actionButton" />
+            <engine:Button text="Flip" name="button-flip" class="actionButton" />
         </engine:VisualElement>
     </engine:VisualElement>
 </engine:UXML>
