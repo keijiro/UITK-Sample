@@ -1,5 +1,5 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/Dancer/UI/Dancer.uss?fileID=7433441132597879392&amp;guid=4c906c2de591b40a19290b3359d85dd6&amp;type=3#Dancer" />
+    <Style src="project://database/Assets/Strawman/UI/Strawman.uss?fileID=7433441132597879392&amp;guid=4c906c2de591b40a19290b3359d85dd6&amp;type=3#Strawman" />
     <engine:VisualElement style="width: 300px; flex-grow: 1; justify-content: center; margin-top: 200px; margin-right: 200px; margin-bottom: 200px; margin-left: 200px;">
         <engine:Button text="Dance" name="button-dance" class="actionButton" />
         <engine:Button text="Spin" name="button-spin" class="actionButton" />

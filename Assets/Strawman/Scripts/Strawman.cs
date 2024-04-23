@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public sealed class Dancer : MonoBehaviour
+public sealed class Strawman : MonoBehaviour
 {
     void Start()
     {

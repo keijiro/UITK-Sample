@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Dancer.unity
-    guid: d98078d4796bf40158c0d2803e529c85
+    path: Assets/Characters.unity
+    guid: b944346528a584abfbe66c62a421fb61
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
