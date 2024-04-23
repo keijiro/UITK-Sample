@@ -15,4 +15,4 @@ MonoBehaviour:
   displayName: Alden
   life: 150
   strength: 49
-  portrait: {fileID: 2800000, guid: 3a760984c12174b138da20d0449ca3aa, type: 3}
+  portrait: {fileID: 2800000, guid: d4ff1a68e6d4e49bda4fa4c6fb729342, type: 3}

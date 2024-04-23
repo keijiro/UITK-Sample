@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d053d341a01fd44fe99a3eaa64d8ba2c, type: 3}
   m_Name: Character22
   m_EditorClassIdentifier: 
-  displayName: Wyatt
+  displayName: Elowen
   life: 91
   strength: 24
   portrait: {fileID: 2800000, guid: 7e023f27c985747b99f6de395be20c36, type: 3}

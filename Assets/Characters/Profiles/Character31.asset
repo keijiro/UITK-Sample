@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d053d341a01fd44fe99a3eaa64d8ba2c, type: 3}
   m_Name: Character31
   m_EditorClassIdentifier: 
-  displayName: Freya
+  displayName: Hadrian
   life: 103
   strength: 16
   portrait: {fileID: 2800000, guid: 6a1b121fb6f8f4a21a3942950420fd6f, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d053d341a01fd44fe99a3eaa64d8ba2c, type: 3}
   m_Name: Character37
   m_EditorClassIdentifier: 
-  displayName: Leona
+  displayName: Nolan
   life: 118
   strength: 11
   portrait: {fileID: 2800000, guid: ba3ae82c0b1b4499c9fc17efb0ece5dc, type: 3}
