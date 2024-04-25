@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8666508466f6649efb622ee34e18f7ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Registry>k__BackingField: {fileID: 11400000, guid: 0dd28fc08c4bd49ee906aeea7fe0b753, type: 2}
+  _party: {fileID: 11400000, guid: 0dd28fc08c4bd49ee906aeea7fe0b753, type: 2}
 --- !u!1 &1411473415
 GameObject:
   m_ObjectHideFlags: 0

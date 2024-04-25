@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu]
-public sealed class CharacterProfile : ScriptableObject
+public class Profile : ScriptableObject
 {
     public string displayName;
     public int life;

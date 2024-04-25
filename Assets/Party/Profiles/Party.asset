@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4acb1bf7decf84c3180de1ea4cfe2d7a, type: 3}
-  m_Name: Registry
+  m_Name: Party
   m_EditorClassIdentifier: 
   profiles:
   - {fileID: 11400000, guid: 24d18fa8813a047b980dd3a4f93f2498, type: 2}
